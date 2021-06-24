@@ -2,13 +2,13 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 
-//create component
-const Header = () => {
+//create component, props is to pass properties
+const Header = props => {
   const {textStyling, viewStyle} = styles;
 
   return (
     <View style={viewStyle}>
-      <Text style={textStyling}>FirstApp</Text>
+      <Text style={textStyling}>{props.title}</Text>
     </View>
   );
 };

@@ -10,7 +10,7 @@ import Header from './src/component/Header';
 
 //create component
 const App = () => {
-  return <Header />;
+  return <Header title={'firstApp'} />;
 };
 
 //render component to screen
