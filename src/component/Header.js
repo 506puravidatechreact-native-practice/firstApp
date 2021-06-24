@@ -20,10 +20,10 @@ const styles = {
   },
 
   viewStyle: {
-    backgroundColor: "gainsboro",
+    backgroundColor: 'gainsboro',
     heigh: 70,
-    justifyContenr: "center",
-    alignItems: "center",
+    justifyContenr: 'center',
+    alignItems: 'center',
     paddingTop: 35,
   },
 };
