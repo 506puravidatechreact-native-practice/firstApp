@@ -1,5 +1,5 @@
 //importatr las librerias
-import React from 'react';
+import React, {Component} from 'react';
 import {Text, View} from 'react-native';
 
 //create component, props is to pass properties
