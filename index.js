@@ -4,12 +4,14 @@
 
 //importatr las librerias
 import React from 'react';
-import {Text, AppRegistry} from 'react-native';
+import {AppRegistry} from 'react-native';
+
+import Header from './src/component/Header';
 
 //create component
 const App = () => {
-  return <Text>Hi there</Text>;
+  return <Header />;
 };
 
-//make a component avaibale to other component
+//render component to screen
 AppRegistry.registerComponent('firstApp', () => App);
