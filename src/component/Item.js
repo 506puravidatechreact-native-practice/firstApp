@@ -11,16 +11,16 @@ const styles = {
   vewStyle: {
     backgroundColor: '#eaeaea',
     borderRadius: 6,
-    borderWith: 1,
+    borderWidth: 1,
     borderColor: '#20232a',
-    borderBottomWidth: 0,
     color: '#666',
     shadowColor: 'black',
-    shadowOffSet: {with: 1, height: 1},
+    shadowOffSet: {width: 1, height: 1},
     shadowOpacity: 0.1,
     marginLeft: 5,
     marginRight: 5,
     marginTop: 10,
+    marginBottom: 5,
   },
 };
 

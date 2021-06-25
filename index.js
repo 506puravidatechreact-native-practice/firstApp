@@ -12,8 +12,8 @@ import CarList from './src/component/CarList';
 //create component
 const App = () => {
   return (
-    <View>
-      <Header title={'firstApp'} />
+    <View style={{flex: 1}}>
+      <Header title={'Cars Showroom'} />
       <CarList />
     </View>
   );

@@ -3,7 +3,7 @@
  */
 
 import React, {Component, Axios} from 'react';
-import {View} from 'react-native';
+import {ScrollView} from 'react-native';
 
 import axios from 'axios';
 
@@ -34,7 +34,7 @@ class CarList extends Component {
     console.log(this.state);
     //return <Text>Car List</Text>;
     //aca se trata ya de mostrar el campo nombre de la lista del primer objeto a como esta implementado en el renderList {brand.model[0].name}
-    return <View>{this.renderList()}</View>;
+    return <ScrollView>{this.renderList()}</ScrollView>;
   }
 }
 

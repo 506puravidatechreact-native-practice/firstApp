@@ -3,10 +3,11 @@
  */
 
 import React from 'react';
-import {Text, View, Image} from 'react-native';
+import {Text, View, Image, Linking} from 'react-native';
 
 import Item from './Item';
 import ItemSection from './ItemSection';
+import Button from './Button';
 
 const CarDetail = ({brand}) => {
   const {headerContainer, headerText, imageStyle} = styles;
@@ -21,6 +22,14 @@ const CarDetail = ({brand}) => {
       </ItemSection>
       <ItemSection>
         <Image style={imageStyle} source={{uri: brand.model[0].image}} />
+      </ItemSection>
+      <ItemSection>
+        <Button
+          buttonPress={() => {
+            Linking.openURL(brand.model[0].url);
+            console.log(brand.brand);
+          }}
+        />
       </ItemSection>
     </Item>
   );
@@ -39,7 +48,7 @@ const styles = {
   imageStyle: {
     height: 300,
     flex: 1,
-    widht: 0,
+    width: 0,
   },
 };
 
