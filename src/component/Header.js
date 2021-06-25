@@ -17,6 +17,8 @@ const Header = props => {
 const styles = {
   textStyling: {
     fontSize: 22,
+    padding: 5,
+    margin: 5,
   },
 
   viewStyle: {
